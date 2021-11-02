@@ -12,9 +12,9 @@ namespace Basket.API.Entities
 
         }
 
-        public ShoppingCart(string username)
+        public ShoppingCart(string userName)
         {
-            UserName = username;
+            UserName = userName;
         }
 
         public decimal TotalPrice
